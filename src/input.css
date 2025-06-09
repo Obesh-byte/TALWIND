@@ -1,3 +1,14 @@
 @import "tailwindcss";
 
-/* npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch */
+/* npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch */@import "tailwindcss";
+
+@theme{
+    --breakpoint-sm:700px;
+    --breakpoint-md:900px;
+    --breakpoint-lg:1000px;
+    --breakpoint-big:1300px;
+    --padding-10 :200px;
+    --margin-10 :300px;
+    --height-1 :100px;
+    --width-1 :100px;
+}
